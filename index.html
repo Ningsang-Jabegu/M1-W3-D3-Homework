@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A simple calculator for various mathematical operations">
+<meta name="author" content="Your Name">
+<title>Calculator</title>
+<style>
+  section {
+    margin: 40px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Section for squaring a number -->
+<section aria-labelledby="square-section">
+  <h2 id="square-section">Square a Number</h2>
+  <label for="square-input">Square this number:</label>
+  <input type="number" id="square-input" size="2" aria-label="Number to square">
+  <button id="square-button" aria-label="Calculate square">Calculate</button>
+</section>
+
+<!-- Section for halving a number -->
+<section aria-labelledby="half-section">
+  <h2 id="half-section">Half a Number</h2>
+  <label for="half-input">Half this number:</label>
+  <input type="number" id="half-input" size="2" aria-label="Number to halve">
+  <button id="half-button" aria-label="Calculate half">Calculate</button>
+</section>
+
+<!-- Section for calculating percentage -->
+<section aria-labelledby="percent-section">
+  <h2 id="percent-section">Calculate Percentage</h2>
+  <label for="percent1-input">Fraction:</label>
+  <input type="number" id="percent1-input" size="2" aria-label="Fraction part">
+  <label for="percent2-input">Whole:</label>
+  <input type="number" id="percent2-input" size="2" aria-label="Whole part">
+  <button id="percent-button" aria-label="Calculate percentage">Calculate</button>
+</section>
+
+<!-- Section for integer operations -->
+<section aria-labelledby="int-section">
+  <h2 id="int-section">Integer Operations</h2>
+  <label for="int-input">Integer:</label>
+  <input type="number" id="int-input" size="2" aria-label="Integer input">
+  <button id="int-button" aria-label="Calculate integer operation">Calculate</button>
+</section>
+
+<!-- Section for calculating area of a circle -->
+<section aria-labelledby="area-section">
+  <h2 id="area-section">Calculate Area of Circle</h2>
+  <label for="area-input">Calculate area of circle with radius:</label>
+  <input type="number" id="area-input" size="2" aria-label="Radius input">
+  <button id="area-button" aria-label="Calculate area">Calculate</button>
+</section>
+
+<!-- Section for displaying the solution -->
+<section aria-labelledby="solution-section">
+  <h2 id="solution-section">Solution</h2>
+  <div id="solution" aria-live="polite"></div>
+</section>
+
+<script src="math-operations.js"></script>
+</body>
+</html>
