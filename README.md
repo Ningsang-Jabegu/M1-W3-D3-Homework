@@ -43,7 +43,7 @@ You can view the live version of the calculator here: [Hosted on Vercel](#)
 
 ## Screenshots
 
-Below are some placeholders for the screenshots of the calculator in action:
+Below are the screenshots of the simple calculator in action:
 
 ### Squaring a Number
 ![Square Number Screenshot](https://github.com/Ningsang-Jabegu/M1-W3-D3-Homework/blob/main/square-number-screenshot.png)
@@ -73,4 +73,3 @@ Below are some placeholders for the screenshots of the calculator in action:
 - **JavaScript (ES6)**
 
 This project is part of the **Front End Web Development Bootcamp** organized by Westcliff University.
-
